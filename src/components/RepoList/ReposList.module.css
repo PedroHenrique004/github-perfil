@@ -1,28 +1,35 @@
 .list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 16px;
+    gap: 32px;
 }
 
 .listItem {
     list-style: none;
     padding: 16px;
-    border: 1px solid rgba(0,0,0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
 }
 
 .itemName b, .itemLanguage  b{
     margin-right: 8px;
+    color: var(--corSecundaria);
 
 }   
 
 
 .itemLink{
     display: block;
-    background-color: var(--corPrincipal);
-    color: var(--corSecundaria);
+    background-color: var(--corSecundaria);
+    color: var(--corPrincipal);
     text-align: center;
     font-weight: bold;
     margin-top: 8px;
     padding: 8px;
     text-decoration: none;
+}
+
+.itemLink:hover{
+    background-color: var(--corTerciaria);
+    color: var(--corPrincipal);
 }

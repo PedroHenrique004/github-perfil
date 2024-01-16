@@ -1,0 +1,13 @@
+.inputUsuario {
+    margin-top: 24px;
+    padding: 5px;
+    margin-bottom: 60px;
+    width: 400px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid var(--corSecundaria);
+}
+
+.titulo {
+    margin-top: 24px;
+}
